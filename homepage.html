@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Encos </title>
+  <link rel="stylesheet" href="homePageStyle.css">
+</head>
+
+<body>
+  <header class="header">
+    
+    <img src="logo.jpg" alt="Logo Description" height="60px" width="80px" class="logostyle">
+    
+    <button onclick="window.location.href='login.html'" class="btn"><span>Login</span></button>
+    <button onclick="window.location.href='ourServices.html'"  class="btn"><span>Our Services</span></button>
+    <button onclick="window.location.href='contactUs.html'" class="btn"><span>Contact us</span></button>
+    
+    <button onclick="window.location.href='about us.html'" class="btn"><span>About Us</span></button>
+    
+</header>
+
+  <main>
+      <!-- scrolling images -->
+      <marquee behavior="scroll" direction="left" class="Flying" >
+        <img src="culture5.jpg" width="1450" height="302" alt="Flying Bat">
+        <img src="culture3.jpg" width="400" height="302" alt="Flying Bat">
+        <img src="culture4.jpg" width="400" height="302" alt="Flying Bat">
+        <img src="culture1.jpg" width="1400" height="302" alt="Flying Bat">
+        <img src="https://img.freepik.com/premium-vector/cartoon-flat-character-receive-online-medicine-buys_189557-1097.jpg?size=626&ext=jpg" width="400" height="302" alt="Flying Bat">
+        </marquee>
+    <div class="intro">
+      <h1>  The  <span class="autoanimationText"></span> </h1>
+      <hr>
+      <!--Write Content here-->
+      <p>PLease Give Feedback, each feedback matters!</p>
+    </div>
+    <div class="achievements">
+      <div class="work">
+        <i class="fas fa-atom"></i>
+        <p class="work-heading">Indian Diversity</p>
+        <p class="work-text"> 
+          India is a country of great racial diversity, with a wide variety of different ethnic and linguistic groups. The population is primarily an admixture of the following races: Indo-Aryans, Dravidians, and Mongoloids. 
+        </p>
+      </div>
+      <div class="work">
+        <i class="fas fa-skiing"></i>
+        <p class="work-heading">Indian Culture</p>
+        <p class="work-text">Indian culture is a combination of social norms and technologies that originated in India. It's one of the world's oldest cultures, dating back about 4,500 years. Indian culture is a combination of various subcultures and century-old traditions.</p>
+      </div>
+      <div class="work">
+        <i class="fas fa-ethernet"></i>
+        <p class="work-heading">Indian Heritage</p>
+        <p class="work-text">The plurality and multiplicity of the Indian Culture is evident to the whole World as India has one of the world's largest collections of songs, music, dance, theatre, folk traditions, performing arts, rites and rituals, languages, dialects, paintings and writings</p>
+      </div>
+    </div>
+    <div class="about-me">
+      <div class="about-me-text">
+        <h2>About Us</h2>
+        <p>Hello users! This is a feedback website of user-friendly web application (Encos) that facilitates easy buying ;&rpar;</p>
+      </div>
+      <video width="400" height="300" controls>
+        <source src="hello.mp4" type="video/mp4">
+      Hello Folks!
+      </video>
+    </div>
+  </main>
+  <footer class="footer">
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-github"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menuone">
+      <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+      <li class="menu__item"><a class="menu__link" href="contactUs.html">Contact</a></li>
+    </ul>
+    <p>&copy;ENCOS | All Rights Reserved</p>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</div>
+<!-- End of Footer -->
+
+</div>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.16"></script>
+  <script>
+    var typed = new Typed(".autoanimationText", {
+      strings: ["INDIA", "INDIA"],
+      typeSpeed: 100, // Corrected from typespeed
+      backSpeed: 100, // Corrected from backspeed
+      loop: true
+
+    });
+  </script>
+</body>
+</html>
